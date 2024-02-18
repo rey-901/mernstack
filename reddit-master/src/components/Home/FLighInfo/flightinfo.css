@@ -1,0 +1,41 @@
+.headingbestdeals {
+    display: flex;
+    justify-content: center;
+
+}
+
+.parentContainer {
+    display: flex;
+    justify-content: center;
+    gap: 418px;
+    /* background-color: red; */
+    padding: 3px;
+}
+
+.leftflight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.middleflight {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center; */
+
+}
+
+.rightflight {
+    display: flex;
+    align-items: center;
+    /* padding: 1px; */
+
+}
+
+.flightbook {
+    padding: 13px;
+    cursor: pointer;
+}

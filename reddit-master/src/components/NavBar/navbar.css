@@ -1,0 +1,62 @@
+
+/* navbar.css */
+
+.navbar-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mainlogo {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .middle-ol {
+    list-style-type: none;
+    margin: 2px;
+    padding: 4px;
+  }
+  
+  .middle-ol li {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    margin: 6px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+  }
+  
+ 
+  
+  .middle-ol  li:hover {
+    color: orange; /* Change color to orange on hover */
+    font-weight: bold; /* Make the text bold on hover */
+    text-decoration: underline; /* Underline the text on hover */
+  }
+  
+  .right {
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .right:hover {
+    text-decoration: underline;
+  }
+  
+  .right,
+  .right span {
+    margin-left: 10px; /* Adjust spacing between "Login Signup" and user info */
+  }
+  
+  .right span:last-child {
+    cursor: pointer;
+  }
+  
+  .right span:last-child:hover {
+    text-decoration: underline;
+  }

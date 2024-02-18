@@ -1,0 +1,58 @@
+.parentcontainerflightsingle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    width: 706px;
+    height: auto;
+    padding: 19px;
+    margin-top: 36px;
+}
+
+.bottomdivflight {
+    /* display: flex; */
+    margin-left: -187px;
+    margin-top: 20px;
+}
+
+
+.middlesingleflight {
+    display: flex;
+    justify-content: space-around;
+    gap: 383px;
+}
+
+.parentofTicket {
+    margin-top: 40px;
+}
+
+.parentticket {
+    display: flex;
+    gap: 393px;
+    margin-top: 27px;
+}
+
+
+
+.parenttoptopcontainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fstdivforeconomy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fstdivforseat {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
